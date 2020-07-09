@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body .pagina-geral{
+    background: white;
+    max-width: 940px;
+    margin: 36px 230px 0 230px;
+    font-family: 'Roboto', sans-serif;
+}
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+#sobre {
+    margin-right: 30px;
+    margin-left: 122.4px;
+}
+.conteudo-principal {
+
+    width:940px;
+    height:366px;
+    margin-top: 36px;
+    background-color:#FBDFDB;
+    border-radius:30px;
+    opacity:1;
+    position: relative;
+}
+.img-chef {
+    padding: 66px 100px 0 624px;
+}
+.titulo {
+
+    position: absolute;
+    top: 31.96%;
+    margin-left:60px;
+    width:305px;
+    height:38px;
+    font-size:32px;
+    line-height: 42px;
+    padding:0 38px;
+    opacity:1;
+}
+.frase {
+
+    position:absolute;
+    top:45.08%;
+    margin-left:65px;     
+    width: 316px;
+    height: 84px;
+    margin-top: 10px;
+    font-size:18px;
+    line-height:28px;
+    padding:0 28px;
+    opacity:0.7;
+}
+.mais-acessadas h2 {
+    width: 174px;
+    height: 28px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.card-img img {
+    width: 300px;
+    height: 140px;
+    border-radius: 15px;
+}
+.card-content .food {
+    margin-top: 20px;
+    width: 249px;
+    height: 21px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.card-content .author {
+    font-size: 14px;
+}
+.footer {
+    height: 62px;
+    width: 1400px;
+    background-color: #EEEEEE;
+    margin-top: 50px;
+}
+.footer-content {
+    position: absolute;
+    height: 16px;
+    width: 267px;
+    font-size: 14px;
+    color: #999999;
+    margin: 23px 567px;
+}
