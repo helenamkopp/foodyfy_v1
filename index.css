@@ -83,6 +83,7 @@ header a {
 }
 .card-content .author {
     font-size: 14px;
+    color: #777777;
 }
 .footer {
     height: 62px;

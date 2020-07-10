@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body .pagina-geral{
+    background: white;
+    max-width: 940px;
+    margin: 36px 230px 0 230px;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    margin-bottom: 50px;
+}
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+#sobre {
+    margin-right: 30px;
+    margin-left: 122.4px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.card-img img {
+    width: 300px;
+    height: 140px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.card-content .food {
+    margin-top: 20px;
+    width: 249px;
+    height: 21px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.card-content .author {
+    font-size: 14px;
+    color: #777777;
+}
+.footer {
+    height: 62px;
+    width: 1400px;
+    background-color: #EEEEEE;
+    margin-top: 50px;
+}
+.footer-content {
+    position: absolute;
+    height: 16px;
+    width: 267px;
+    font-size: 14px;
+    color: #999999;
+    margin: 23px 567px;
+}
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal {
+    background-color: white;
+    border-radius: 16px;
+    width: 660px;
+    height: 413px;
+    margin: 5vh auto;
+    position: relative;
+}
+
+.modal .close-modal {
+    color:#999999;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    cursor: pointer;
+
+}
+.modal .card-img {
+    height: 200px;
+    width: 600px;
+    border-radius: 15px;
+
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+iframe {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 6%;
+}
