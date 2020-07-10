@@ -18,19 +18,17 @@ header a {
     margin-right: 30px;
     margin-left: 122.4px;
 }
-
-.conteudo .h2 {
-    height: 28px;
-    width: 164px;
-    font-size: 24px;
+.conteudo h2 {
     margin-top: 30px;
     margin-bottom: 20px;
+    font-size: 20px;
+    height: 24px;
+    width: 202px;
 }
-.conteudo .p{
-    height: 280px;
+.conteudo p {
+    height: 200px;
     width: 940px;
-    font-size: 18px;
-    color: #444444;
+    font-size: 17px;
 }
 .footer {
     height: 62px;
