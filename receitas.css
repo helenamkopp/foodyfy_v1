@@ -67,28 +67,35 @@ header a {
     visibility: hidden;
 }
 
-.modal {
+.modal-overlay .modal {
     background-color: white;
     border-radius: 16px;
     width: 660px;
-    height: 413px;
-    margin: 5vh auto;
+    height: 360px;
+    margin: 15vh auto;
     position: relative;
 }
-
-.modal .close-modal {
+.modal-overlay .modal .close-modal {
     color:#999999;
     position: absolute;
     right: 8px;
     top: 8px;
     cursor: pointer;
-
 }
-.modal .card-img {
+.modal-overlay .modal .modal-content img{
+    margin: 30px 30px 20px 30px;
+    border-radius: 15px;
     height: 200px;
     width: 600px;
-    border-radius: 15px;
-
+}
+.modal-overlay .modal .modal-content p {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.modal-overlay .modal .modal-content p.author {
+    font-size: 18px;
+    color: #777777;
 }
 
 .modal-overlay.active {
@@ -96,9 +103,3 @@ header a {
     visibility: visible;
 }
 
-iframe {
-    width: 100%;
-    height: 90%;
-    position: absolute;
-    top: 6%;
-}
